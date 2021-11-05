@@ -35,7 +35,8 @@ public class Student {
         System.out.println("Grade in Physics: " + grade[0] + "\nGrade in Chemistry: " + grade[1] + "\nGrade in Maths: " + grade[2] + "\n");
     }
 
-    static Student[] Sort(Student[] S) {
+    static Student[]
+    Sort(Student[] S) {
         //Sort Method -> Insertion Sort
         Student key;
         int j;

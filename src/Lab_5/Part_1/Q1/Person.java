@@ -8,10 +8,9 @@ public class Person{
         name = str;
         age =age1;
     }
-
-    public void to_string() {
-        String str = String.format("Name : %s\nAge : %d",name, age);
-        System.out.println(str);
+    @Override
+    public String toString() {
+        return String.format("Name : %s\nAge : %d",name, age);
     }
 
 }

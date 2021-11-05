@@ -1,4 +1,4 @@
-package com.company;
+package Lab_5.Part_1.Q2;
 
 public class Main {
 
@@ -10,7 +10,7 @@ public class Main {
 
         Square sq1 = new Square(2);
         System.out.println("\nArea of Square = " + sq1.getArea());
-        System.out.println("Perimeter of Squrare = " + sq1.getPerimeter());
+        System.out.println("Perimeter of Square = " + sq1.getPerimeter());
 
     }
 }

@@ -1,4 +1,4 @@
-package Q2;
+package Lab_5.Part_2.Q2;
 
 public abstract class Shape {
 

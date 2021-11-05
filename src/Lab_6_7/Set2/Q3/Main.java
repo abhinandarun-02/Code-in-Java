@@ -1,4 +1,4 @@
-package Set2.Q3;
+package Lab_6_7.Set2.Q3;
 
 public class Main {
 
