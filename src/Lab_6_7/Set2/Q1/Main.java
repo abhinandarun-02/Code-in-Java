@@ -1,4 +1,4 @@
-package Set2.Q1;
+package Lab_6_7.Set2.Q1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.company;
+package Lab_5.Part_1.Q2;
 
 public class Square extends Rectangle {
 

@@ -1,4 +1,4 @@
-package Set2.Q4;
+package Lab_6_7.Set2.Q4;
 
 public class myException extends Exception{
     public myException() {

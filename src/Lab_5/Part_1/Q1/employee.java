@@ -41,10 +41,12 @@ public class employee extends Person{
         return 40* hourly_pay + n* hourly_pay *1.5;
     }
 
-
-    public void to_string() {
-        super.to_string();
-        System.out.println("Employee ID : "+employee_ID + "\nHourly Pay : " + hourly_pay);
+    @Override
+    public String toString() {
+        String str;
+        str = super.toString();
+        str += "\nEmployee ID : "+employee_ID + "\nHourly Pay : " + hourly_pay;
+        return str;
     }
 
 }
