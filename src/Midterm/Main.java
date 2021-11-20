@@ -12,7 +12,8 @@ public class Main {
 
         try {
             p1.count_vowels();
-        } catch (myException e) {
+        }
+        catch (myException e) {
             System.out.println(e.getMessage());
         }
 

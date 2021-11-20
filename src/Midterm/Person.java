@@ -29,7 +29,8 @@ public class Person implements name {
                 count++;
             }
         }
-        System.out.println(count);
+        if (count % 2 == 0) throw new myException();
+        else System.out.println(count);
     }
 
     @Override
