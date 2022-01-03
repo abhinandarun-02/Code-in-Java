@@ -1,4 +1,4 @@
-package Lab_9.Q2;
+package Lab_8_String.Q2;
 
 import java.util.Scanner;
 
